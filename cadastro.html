@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="shortcut icon" type="imax/png" href="/assets/images/Logo.ico">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Cadastro OcenSO</h1>
+    </header>
+
+    <main>
+        <section id="cadastro">
+            <h2>Cadastro de Viagem</h2>
+            <form id="cadastroForm">
+                <label for="nome">Nome do Viajante:</label>
+                <input type="text" id="nome" name="nome" required>
+    
+                <label for="data">Data de Início Prevista (são 7 dias de viagem):</label>
+                <input type="date" id="data" name="data" required>
+    
+                <label for="local">País desejado:</label>
+                <input type="text" id="local" name="local" required>
+    
+                <label for="observacao">Observações:</label>
+                <textarea id="observacao" name="observacao" required></textarea>
+                
+                <button type="submit">Cadastrar</button>
+            </form>
+        </section>
+        <img class="logo-cadastro" src="/assets/images/Logo-nome.png" alt="">
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
